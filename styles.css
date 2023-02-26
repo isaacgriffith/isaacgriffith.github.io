@@ -1,0 +1,206 @@
+* {
+    font-family: Roboto;
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #about article {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    body {
+        width: 75%;
+        margin-left: 12.5%;
+        margin-right: 12.5%;
+    }
+
+    #about article {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1600px) {
+    body {
+        width: 65%;
+        margin-left: 17.5%;
+        margin-right: 17.5%;
+    }
+
+    #about article {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    body {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    #about article {
+        width: 50%;
+        display: inline-block;
+        vertical-align: top;
+    }
+}
+
+#contact {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+#contact-info {
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+#about {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#map {
+    display: inline-block;
+}
+
+img {
+    min-width: 200px;
+    max-width: 300px;
+    height: auto;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    width: 50%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+#menu {
+    position: relative;
+    top: 30px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+footer {
+    grid-area: footer;
+}
+
+footer p {
+    text-align: center;   
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.proj-card * {
+    background-color: rgb(60, 106, 234);
+}
+
+.proj-card {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(60, 106, 234);
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    padding: 1px 10px 10px 10px;
+    display: inline-block;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: bolder;
+    color: white;
+    background-color: rgb(25, 25, 25);
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    left: 95px;
+}
+
+.title {
+    color: rgb(25, 25, 25);
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.pubs {
+    list-style-type: none;
+}
+
+.pubs li a {
+    color: orange;
+}
+
+h2 {
+    background-color: rgb(25, 25, 25);
+    color: orange;
+    padding: 5px 0px 5px 0px;
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+    border-color: orange;
+}
+
+.menu-item a {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.menu-item a:hover {
+    color: rgb(119, 153, 247);
+    border-bottom-color: rgb(119, 153, 247);
+    border-bottom-width: 6px;
+    border-bottom-style: solid;
+}
+
+.menu-item a:active {
+    color: lightskyblue;
+}
+
+#skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
